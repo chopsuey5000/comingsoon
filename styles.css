@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(270deg, #ff8a00, #e52e71, #9b36b7, #515ecf);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header, footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 0px;
+}
+
+header, footer p {
+    color: #fff; /* Asegúrate de que el texto sea legible sobre el fondo de gradiente */
+    margin: 0;
+}
+
+h1{
+    font-size: 10rem;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-top: 0;
+    font-weight: 100;
+    font-size: 5rem;
+
+}
+
+main {
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
