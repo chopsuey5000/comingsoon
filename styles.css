@@ -18,8 +18,6 @@ body, html {
     100% { background-position: 0% 50%; }
 }
 
-
-
 h1{
     color: #fff;
     margin-top: 0;
@@ -31,7 +29,7 @@ h1{
     text-align: left; /* Asegura que el texto dentro de h3 esté justificado a la izquierda */
 }
 
-h3{
+h2{
     color: #ddd;
     margin-top: 0;
     font-weight: 100;
@@ -42,6 +40,10 @@ h3{
     text-align: left; /* Asegura que el texto dentro de h3 esté justificado a la izquierda */
 }
 
+h3 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
 
 main {
     color: #fff;
@@ -54,8 +56,6 @@ main {
     text-align: center;
     height: 100%; /* Asegura que main ocupe toda la altura disponible */
 }
-
-
 
 header {
     display: flex; /* Habilita Flexbox */
@@ -80,9 +80,4 @@ footer {
     background-color: transparent;
     text-align: center;
     padding: 20px;
-}
-
-h6 {
-    font-size: 1rem;
-    font-weight: 10;
 }
