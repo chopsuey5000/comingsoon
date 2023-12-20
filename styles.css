@@ -6,7 +6,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(270deg, #ff8a00, #e52e71, #9b36b7, #515ecf);
     background-size: 400% 400%;
-    animation: Gradient 15s ease infinite;
+    animation: Gradient 10s ease infinite;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Altura mínima del viewport */
