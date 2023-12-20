@@ -24,35 +24,48 @@ h1{
     color: #fff;
     margin-top: 0;
     font-size: 10rem;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+    align-self: flex-start; /* Alinea h3 a la izquierda dentro de main */
+    text-align: left; /* Asegura que el texto dentro de h3 esté justificado a la izquierda */
 }
 
 h3{
     color: #ddd;
     margin-top: 0;
     font-weight: 100;
-    font-size: 5rem;
+    font-size: 2.8rem;
     margin-bottom: 0px;
+    align-self: flex-start; /* Alinea h3 a la izquierda dentro de main */
+    text-align: left; /* Asegura que el texto dentro de h3 esté justificado a la izquierda */
 }
+
 
 main {
     color: #fff;
     padding: 20px;
     margin: 0 auto;
-    flex-grow: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
     flex-direction: column;
     text-align: center;
+    height: 100%; /* Asegura que main ocupe toda la altura disponible */
 }
 
+
+
 header {
-    /* Estilos para el header */
-    background-color: transparent;
-    text-align: center;
-    padding: 20px;
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Altura total de la ventana de visualización */
 }
+
+header div {
+    text-align: center; /* Asegura que el texto dentro del div esté centrado */
+}
+
 
 main {
     flex-grow: 1; /* Permite que el main ocupe todo el espacio disponible */
@@ -68,6 +81,6 @@ footer {
 }
 
 h6 {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 10;
 }
