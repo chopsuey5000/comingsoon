@@ -1,4 +1,5 @@
 body, html {
+    color: #fff;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -6,6 +7,9 @@ body, html {
     background: linear-gradient(270deg, #ff8a00, #e52e71, #9b36b7, #515ecf);
     background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima del viewport */
 }
 
 @keyframes Gradient {
@@ -14,18 +18,10 @@ body, html {
     100% { background-position: 0% 50%; }
 }
 
-header, footer {
-    background-color: transparent;
-    text-align: center;
-    padding: 0px;
-}
 
-header, footer p {
-    color: #fff; /* Asegúrate de que el texto sea legible sobre el fondo de gradiente */
-    margin: 0;
-}
 
 h1{
+    margin-top: 0;
     font-size: 10rem;
     margin-bottom: 20px;
 }
@@ -34,7 +30,7 @@ h3{
     margin-top: 0;
     font-weight: 100;
     font-size: 5rem;
-
+    margin-bottom: 0px;
 }
 
 main {
@@ -47,4 +43,29 @@ main {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+header {
+    /* Estilos para el header */
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 1; /* Permite que el main ocupe todo el espacio disponible */
+    padding: 20px;
+    /* Otros estilos para main */
+}
+
+footer {
+    /* Estilos para el footer */
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+}
+
+h6 {
+    font-size: 23px;
+    font-weight: 10;
 }
