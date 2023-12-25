@@ -71,7 +71,7 @@ footer {
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 800px) {
     h1 {
-        font-size: 3rem; /* Más pequeño para móviles */
+        font-size: 2rem; /* Más pequeño para móviles */
     }
     h2 {
         font-size: 1.2rem; /* Más pequeño para móviles */
