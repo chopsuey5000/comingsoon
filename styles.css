@@ -20,6 +20,7 @@ h1 {
     font-weight: 800;
     text-align: left;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2 {
@@ -50,7 +51,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Altura ajustada */
+    
 }
 
 main {
